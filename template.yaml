@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Pass-question-generator
+Resources:
+  AlexaSkillFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: target/passquestions-1.0-jar-with-dependencies.jar
+      Handler: com.itshackney.passquestions.Question::handleRequest
+      Runtime: java8
+      Timeout: 60
+      Events:
+            Api:
+              Type: Api
+              Properties:
+                Path: /questions
+                Method: get
+

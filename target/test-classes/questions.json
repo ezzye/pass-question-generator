@@ -1,0 +1,8 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "testheader": "test"
+  },
+  "body": "[{\"type\":\"animal_en\",\"what\":\"wild animal\",\"question\":\"can\",\"number\":\"one\",\"light_dark\":\"light\",\"colour\":\"red\",\"big_small\":\"big\",\"cute_ugly\":\"cute\",\"animal\":\"lion\",\"verb\":\"dance with\"},{\"type\":\"animal_en\",\"what\":\"wild animal\",\"question\":\"is able to\",\"number\":\"one\",\"light_dark\":\"dark\",\"colour\":\"brown\",\"big_small\":\"big\",\"cute_ugly\":\"beautiful\",\"animal\":\"cow\",\"verb\":\"dance with\"},{\"type\":\"animal_en\",\"what\":\"farm animal\",\"question\":\"is able to\",\"number\":\"three\",\"light_dark\":\"light\",\"colour\":\"brown\",\"big_small\":\"small\",\"cute_ugly\":\"horrid\",\"animal\":\"tiger\",\"verb\":\"fight with\"},{\"type\":\"animal_en\",\"what\":\"wild animal\",\"question\":\"can\",\"number\":\"one\",\"light_dark\":\"dark\",\"colour\":\"red\",\"big_small\":\"big\",\"cute_ugly\":\"cute\",\"animal\":\"hamster\",\"verb\":\"be friends with\"}]",
+  "base64Encoded": false
+}

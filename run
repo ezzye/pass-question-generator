@@ -1,0 +1,15 @@
+#!/bin/bash
+set -eu
+
+# run lambda using sam local via template.yaml
+
+BASE_DIR="$( dirname "$0" )"
+
+# 2>&1 because that makes life much easier in under-test.rb
+# exec 2>&1
+
+# to debug use -d port flag
+# sam local invoke AlexaSkillFunction -d 5005 "$@"
+
+sam local invoke AlexaSkillFunction --skip-pull-image "$@"
+#sam local invoke AlexaSkillFunction "$@"
